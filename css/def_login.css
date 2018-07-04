@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+html {
+  height: 100%; }
+
+body {
+  height: 100%; }
+
+#left {
+  width: 35%;
+  height: 60%;
+  float: left;
+  background: #ffff11;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+#right {
+  width: 65%;
+  height: 60%;
+  float: right;
+  background: #11ffff;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+#images {
+  clear: both;
+  height: 35%;
+  background: white; }
+#images ul li {
+  background: blue;
+  display: inline;
+  text-decoration: none; }
+#images img {
+  width: 20%;
+  height: 100%; }
+
+footer {
+  height: 5%;
+  #background: green; }
+footer ul {
+  table-layout: fixed;
+  text-align: center; }
+footer ul li {
+  display: inline;
+  margin-right: 30px; }
+
+/*# sourceMappingURL=def_login.css.map */
